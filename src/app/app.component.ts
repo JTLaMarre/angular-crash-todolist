@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular-crash-todolist';
+  name:string = 'Jacob';
+
+  constructor(){
+    console.log('poop')
+  }
 }
